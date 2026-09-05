@@ -1,0 +1,37 @@
+import type { IncomeTxn } from '../types'
+
+export const junData: IncomeTxn[] = [
+  // June daily transactions (offices already counted in may2026.ts)
+  { id: 'jun-001', date: '2026-06-01', amount: 2880, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Instapay', paymentStatus: 'Done', branch: '6 October', comment: 'V Renewal' },
+  { id: 'jun-002', date: '2026-06-02', amount: 3000, salesPerson: 'Shahd', category: 'Meeting Room', space: 'Meeting', paymentMethod: 'Cash', paymentStatus: 'Done', branch: 'Nasr City', comment: '' },
+  { id: 'jun-003', date: '2026-06-03', amount: 4500, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Bank Transfer', paymentStatus: 'Done', branch: 'Nasr City', comment: '' },
+  { id: 'jun-004', date: '2026-06-04', amount: 2000, salesPerson: 'Mariam', category: 'Other', space: 'hours', paymentMethod: 'Cash', paymentStatus: 'Done', branch: '6 October', comment: 'hours' },
+  { id: 'jun-005', date: '2026-06-05', amount: 2880, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Instapay', paymentStatus: 'Done', branch: '6 October', comment: 'V Renewal' },
+  { id: 'jun-006', date: '2026-06-06', amount: 5000, salesPerson: 'Shahd', category: 'Meeting Room', space: 'Meeting', paymentMethod: 'Cash', paymentStatus: 'Done', branch: 'Nasr City', comment: '' },
+  { id: 'jun-007', date: '2026-06-07', amount: 3500, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Instapay', paymentStatus: 'Done', branch: '6 October', comment: '' },
+  { id: 'jun-008', date: '2026-06-08', amount: 1800, salesPerson: 'Mariam', category: 'Meeting Room', space: 'Meeting', paymentMethod: 'Cash', paymentStatus: 'Done', branch: '6 October', comment: '' },
+  { id: 'jun-009', date: '2026-06-09', amount: 4000, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Bank Transfer', paymentStatus: 'Done', branch: 'Nasr City', comment: 'V Renewal' },
+  { id: 'jun-010', date: '2026-06-10', amount: 2500, salesPerson: 'Shahd', category: 'Meeting Room', space: 'Meeting', paymentMethod: 'Cash', paymentStatus: 'Done', branch: 'Nasr City', comment: '' },
+  { id: 'jun-011', date: '2026-06-11', amount: 2880, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Instapay', paymentStatus: 'Done', branch: '6 October', comment: 'V Renewal' },
+  { id: 'jun-012', date: '2026-06-12', amount: 3000, salesPerson: 'Mariam', category: 'Meeting Room', space: 'Meeting', paymentMethod: 'Cash', paymentStatus: 'Done', branch: '6 October', comment: '' },
+  { id: 'jun-013', date: '2026-06-13', amount: 1000, salesPerson: 'Yasmen', category: 'Other', space: 'hours', paymentMethod: 'Cash', paymentStatus: 'Done', branch: 'Nasr City', comment: 'hours Yasmin' },
+  { id: 'jun-014', date: '2026-06-14', amount: 1500, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Instapay', paymentStatus: 'Done', branch: 'Nasr City', comment: '' },
+  { id: 'jun-015', date: '2026-06-15', amount: 2000, salesPerson: 'Other', category: 'Other', space: 'hours', paymentMethod: 'Cash', paymentStatus: 'Done', branch: 'Nasr City', comment: 'hours' },
+  { id: 'jun-016', date: '2026-06-16', amount: 4800, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Bank Transfer', paymentStatus: 'Done', branch: '6 October', comment: 'V Renewal' },
+  { id: 'jun-017', date: '2026-06-17', amount: 3500, salesPerson: 'Mariam', category: 'Meeting Room', space: 'Meeting', paymentMethod: 'Cash', paymentStatus: 'Done', branch: '6 October', comment: '' },
+  { id: 'jun-018', date: '2026-06-18', amount: 2880, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Instapay', paymentStatus: 'Done', branch: '6 October', comment: 'V Renewal' },
+  { id: 'jun-019', date: '2026-06-19', amount: 1500, salesPerson: 'Shahd', category: 'Meeting Room', space: 'Meeting', paymentMethod: 'Cash', paymentStatus: 'Done', branch: 'Nasr City', comment: '' },
+  { id: 'jun-020', date: '2026-06-20', amount: 6000, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Bank Transfer', paymentStatus: 'Done', branch: 'Nasr City', comment: '' },
+  { id: 'jun-021', date: '2026-06-21', amount: 2000, salesPerson: 'Mariam', category: 'Other', space: 'hours', paymentMethod: 'Cash', paymentStatus: 'Done', branch: '6 October', comment: 'hours' },
+  { id: 'jun-022', date: '2026-06-22', amount: 2880, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Instapay', paymentStatus: 'Done', branch: '6 October', comment: 'V Renewal' },
+  { id: 'jun-023', date: '2026-06-23', amount: 4000, salesPerson: 'Shahd', category: 'Meeting Room', space: 'Meeting', paymentMethod: 'Cash', paymentStatus: 'Done', branch: 'Nasr City', comment: '' },
+  { id: 'jun-024', date: '2026-06-24', amount: 3000, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Bank Transfer', paymentStatus: 'Done', branch: '6 October', comment: '' },
+  { id: 'jun-025', date: '2026-06-25', amount: 1800, salesPerson: 'Mariam', category: 'Meeting Room', space: 'Meeting', paymentMethod: 'Cash', paymentStatus: 'Done', branch: '6 October', comment: '' },
+  { id: 'jun-026', date: '2026-06-26', amount: 2880, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Instapay', paymentStatus: 'Done', branch: '6 October', comment: 'V Renewal' },
+  { id: 'jun-027', date: '2026-06-27', amount: 2500, salesPerson: 'Shahd', category: 'Meeting Room', space: 'Meeting', paymentMethod: 'Cash', paymentStatus: 'Done', branch: 'Nasr City', comment: '' },
+  { id: 'jun-028', date: '2026-06-28', amount: 3500, salesPerson: 'Yasmen', category: 'Virtual Office', space: 'Virtual', paymentMethod: 'Bank Transfer', paymentStatus: 'Done', branch: 'Nasr City', comment: '' },
+  { id: 'jun-029', date: '2026-06-29', amount: 2000, salesPerson: 'Mariam', category: 'Other', space: 'hours', paymentMethod: 'Cash', paymentStatus: 'Done', branch: '6 October', comment: 'hours' },
+  // June 30 market settlements
+  { id: 'jun-030', date: '2026-06-30', amount: 5500, salesPerson: 'Villa', category: 'Market/Bar', space: 'Market', paymentMethod: 'Cash', paymentStatus: 'Done', branch: '6 October', comment: 'market settlement' },
+  { id: 'jun-031', date: '2026-06-30', amount: 4000, salesPerson: 'Villa', category: 'Market/Bar', space: 'Market', paymentMethod: 'Cash', paymentStatus: 'Done', branch: 'Nasr City', comment: 'market settlement' },
+]
