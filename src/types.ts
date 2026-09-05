@@ -1,4 +1,4 @@
-export type Branch = '6 October' | 'Nasr City'
+export type Branch = '6 October' | 'Nasr City' | 'El Ma7or' | 'West Gate'
 
 export type PaymentMethod = 'Cash' | 'Bank Transfer' | 'Instapay' | 'Vodafone Cash' | 'Cheque'
 
@@ -112,4 +112,4 @@ export const PAYMENT_METHODS: PaymentMethod[] = [
   'Cheque',
 ]
 
-export const BRANCHES: Branch[] = ['6 October', 'Nasr City']
+export const BRANCHES: Branch[] = ['6 October', 'Nasr City', 'El Ma7or', 'West Gate']
